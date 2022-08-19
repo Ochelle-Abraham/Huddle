@@ -1,0 +1,181 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.first{
+    background-image: url(../huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+
+}
+
+.topz{
+    display: flex;
+    
+}
+a{
+    border: 1px solid palevioletred;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: palevioletred;
+    text-decoration-line: none;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.im{
+    flex: 4;
+    margin-top: 20px;
+}
+.li{
+    margin-top: 20px;
+}
+.topz a{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.build{
+    /* margin: 20px 60px g0px 40px; */
+    /* display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 1em; */
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end;*/
+    padding: 50px 100px;
+    
+}
+.build div{
+    padding: 15px;
+}
+.sty{
+    flex: 1;
+}
+.le{
+    flex: 2;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between 50px;
+
+}
+
+.grow{
+    margin: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-items: center;
+    padding: 50px;
+}
+.flow{
+    margin: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.user{
+    margin: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.third{
+    margin: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    border-width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* display: grid;
+    grid-template-columns: 40% 50%;
+    align-items: center; */
+    background-color: white;
+    color: black;
+    z-index: 1;
+    position: relative;
+    bottom: 100px;
+    margin: 50px 300px;
+    text-align: center;
+    padding: 70px;
+    
+}
+
+
+.closer{
+    margin-top: 200px;
+    background: hsl(210, 22%, 20%);
+    color: white;
+
+}
+
+.lhu{
+    margin: 30px;
+    filter: brightness(0) invert(1);
+}
+
+.scra{
+    margin-bottom: 60px;
+    margin-left: 30px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+.scra ul{
+    list-style: none;
+}
+.box-1{
+    flex: 2;
+}
+
+.box-2{
+    flex: 1;
+}
+
+.box-3{
+    flex: 1;
+}
+
+.box-4{
+    flex: 2;
+}
+#add{
+    list-style-image: url(../huddle-landing-page-with-alternating-feature-blocks-master/images/icon-location.svg);
+    margin: 10px;
+}
+#mail{
+    list-style-image: url(../huddle-landing-page-with-alternating-feature-blocks-master/images/icon-email.svg);
+    margin: 10px;
+}
+#num{
+    list-style-image: url(../huddle-landing-page-with-alternating-feature-blocks-master/images/icon-phone.svg);
+    margin: 10px;
+}
+.foot{
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    margin: 40px;
+}
